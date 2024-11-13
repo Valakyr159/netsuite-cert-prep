@@ -1,0 +1,1419 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": "Which record types support the Multiple Currency feature? (Choose 2.)",
+      "type": "multiple",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Vendor",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Employees",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Customer",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "Partners",
+          "isCorrect": false
+        },
+        {
+          "id": 5,
+          "text": "Competitors",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The Multiple Currency feature is supported by Vendor and Customer record types, allowing transactions in different currencies."
+    },
+    {
+      "id": 2,
+      "text": "Which feature allows users to manage inventory in various locations?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Locations",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Inventory",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Multi-Location Inventory",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "Advanced Inventory Management",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The Multi-Location Inventory feature enables users to manage inventory across different locations effectively."
+    },
+    {
+      "id": 3,
+      "text": "Which statement is correct about renaming records/transactions?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "The navigational path to the record updates with the renaming.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Abbreviations for Transaction Names can only contain up to 10 alphanumeric and/or special characters.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Abbreviations for Account Type Names can be used to access the account when recording journal entries.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "The renaming process applies to each language used within the system.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Renaming records updates the navigational path, making it easier to locate them."
+    },
+    {
+      "id": 4,
+      "text": "Which steps are needed to disable the Multi-Subsidiary Customer feature? (Choose 2.)",
+      "type": "multiple",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Reverse or delete all transactions related to customers and their secondary subsidiaries.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Inactivate Customer records with multiple transactions on different subsidiaries.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Remove all secondary subsidiaries from Customer records.",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "Set only one primary subsidiary and one secondary subsidiary in the Customer record.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "To disable the Multi-Subsidiary Customer feature, you must reverse or delete related transactions and remove secondary subsidiaries."
+    },
+    {
+      "id": 5,
+      "text": "Which is considered the primary classification used to organize records in a NetSuite OneWorld account?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Departments",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Classes",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Subsidiaries",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "Locations",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "In a NetSuite OneWorld account, Subsidiaries are the primary classification for organizing records."
+    },
+    {
+      "id": 6,
+      "text": "Which field type can be used to track Employee birthdays?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Date",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Date/Time",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Time of Day",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Record is Parent",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The Date field type is suitable for tracking Employee birthdays."
+    },
+    {
+      "id": 7,
+      "text": "Which statement is true about custom forms?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Even if a custom form is stored with a record, a user cannot access the form if it is not enabled for their role.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "If you set preferred forms without restricting them, employees can still change the form when entering records.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "The Store Form with Record option is available for all custom entry and custom transaction forms.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Define preferred forms from Home > Set Preferences.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Custom forms must be enabled for a user's role to be accessible, even if stored with a record."
+    },
+    {
+      "id": 8,
+      "text": "Which statement is correct regarding Custom Transactions?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Custom Transaction Types can have auto-generated document numbers.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Custom Transaction Types cannot be imported via CSV.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Users can only create one custom form for each transaction type.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Custom Transaction Types cannot include Custom Transaction body fields.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Custom Transaction Types in NetSuite can have auto-generated document numbers."
+    },
+    {
+      "id": 9,
+      "text": "What customization feature allows users with no scripting knowledge to modify standard NetSuite processes?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "SuiteBuilder",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "SuiteFlow",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "SuiteBundler",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "SuiteTalk",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "SuiteBuilder allows users without scripting knowledge to customize standard processes."
+    },
+    {
+      "id": 10,
+      "text": "Where can users set a Default Role upon logging into NetSuite?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "On the Employee record > Access tab, mark the Default checkbox next to the assigned role.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "On the Choose Role page, mark the Default checkbox next to the assigned role.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "On the Home page, click the star icon below the Oracle NetSuite logo.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "On the Role record > Users tab, mark the Default checkbox next to the assigned user.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Users can set a Default Role on the Choose Role page by marking the Default checkbox."
+    },
+    {
+      "id": 11,
+      "text": "Where do users access NetSuite Performance Details?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Double-click the company logo.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Double-click the Oracle NetSuite logo.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "Double-click the User Role dropdown menu.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Set up the Key Performance Indicators portlet.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "NetSuite Performance Details can be accessed by double-clicking the Oracle NetSuite logo."
+    },
+    {
+      "id": 12,
+      "text": "While editing a cash sale, a user must refresh the record to see the latest email received from the customer. What must the user also do to see the email without losing unsaved data on the cash sale?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Go to the Communication subtab and click Refresh on the Messages sublist.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Right-click the Refresh icon on the browser and click Soft Refresh.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Refresh the whole page.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Click the Receive Email Crosslink.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "To see the latest email without losing unsaved data, the user should refresh the Messages sublist in the Communication subtab."
+    },
+    {
+      "id": 13,
+      "text": "Where in NetSuite can a user find the Show Internal IDs preference?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Setup tab > Enable Features",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Home > General Preferences",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Home > Set Preferences",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "Setup tab > Accounting Preferences",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The Show Internal IDs preference can be found under Home > Set Preferences."
+    },
+    {
+      "id": 14,
+      "text": "Which restrictions can apply to records on the Home > Set Preferences > Restrict View tab? (Choose 2.)",
+      "type": "multiple",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Period",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Segment",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "Location",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Department",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Users can restrict views based on Period and Segment in their preferences."
+    },
+    {
+      "id": 15,
+      "text": "A user created a List of Items Sold Today report using a saved search. Which portlet allows the user to add this report to the Home dashboard?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Custom Search",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Report Snapshots",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Quick Search",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Custom List",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The Custom Search portlet allows users to add saved search reports to their dashboard."
+    },
+    {
+      "id": 16,
+      "text": "Which Documents > Mail Merge > Bulk Merge option is available for users to create bulk communications?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Event",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Fax",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "CSV",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Cases",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Users can create bulk communications via Fax using the Mail Merge feature."
+    },
+    {
+      "id": 17,
+      "text": "Which statement is true about restricting files in the File Cabinet?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "To make files available to company users only, select the Company-Wide Usage box on the file record.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "NetSuite allows users to restrict individual files.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "The Available Without Login preference is selected by default.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "If a parent folder's restriction changes after a subfolder is created, the subfolder inherits the new restriction.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Selecting the Company-Wide Usage box restricts file access to company users only."
+    },
+    {
+      "id": 18,
+      "text": "Where should a user go to set a default expiration (in days) for Estimate records?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Sales Preferences",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "The Estimate record",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "The Customer record",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Accounting Preferences",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The default expiration for Estimate records can be set in Sales Preferences."
+    },
+    {
+      "id": 19,
+      "text": "Which statements are true when converting Leads? (Choose 2.)",
+      "type": "multiple",
+      "answers": [
+        {
+          "id": 1,
+          "text": "A Lead record can be converted to the Customer stage without creating a sales order transaction.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Leads converted to Customers can never be converted back to Leads.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "When an Opportunity is created, the Lead record follows the status of the Opportunity record.",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "Leads can be converted to the Customer stage through a Relationships type CSV import.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Leads can be converted to Customers without a sales order, and their status aligns with Opportunities."
+    },
+    {
+      "id": 20,
+      "text": "What is the customer status after creating an Estimate for a Lead record?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Lead",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Prospect",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "Customer",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Contact",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "After creating an Estimate for a Lead, the status changes to Prospect."
+    },
+    {
+      "id": 21,
+      "text": "Which options can be set by users under Setup > Sales > Sales Preferences > Forecasts? (Choose 2.)",
+      "type": "multiple",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Calculate Forecasts as Weighted",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Advanced Forecasting",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Use Opportunities in Forecast",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "Allow Setting Probability in Forecast Editor",
+          "isCorrect": false
+        },
+        {
+          "id": 5,
+          "text": "Allow Override of Quotas in Forecast Editor",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Users can set options to calculate forecasts as weighted and to use opportunities in forecasts."
+    },
+    {
+      "id": 22,
+      "text": "Where can users set subsidiary-level support preferences?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Case Profile",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Setup > Company > General Preferences",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Setup > Support > Support Preferences",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "Subsidiary record",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Subsidiary-level support preferences can be set under Setup > Support > Support Preferences."
+    },
+    {
+      "id": 23,
+      "text": "Which role or roles can edit locked cases?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Administrator only",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Administrator and Support Administrator",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "Administrator, Support Administrator, and Support Manager",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Administrator and roles with Full access on Cases",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Only the Administrator and Support Administrator roles can edit locked cases."
+    },
+    {
+      "id": 24,
+      "text": "What is the purpose of selecting Unsubscribed to Marketing by Default, under Marketing Preferences?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "To enable the Global Subscription Status field on the Customer record.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "To set the Global Subscription Status to Soft Opt-out once a new Customer record is created.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "Existing customers are updated from Soft Opt-in to Unsubscribed.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "To enable the Campaign Subscription Center link under Home > Dashboard > Settings portlet.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Selecting this option sets new customers to Soft Opt-out by default."
+    },
+    {
+      "id": 25,
+      "text": "Using the Standard Sales Order Form, what transaction is created when billing a Sales Order that has a Payment Method selected?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Progress Invoice",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Cash Sale",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Customer Payment",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Invoice",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "When billing a Sales Order with a Payment Method, an Invoice is created."
+    },
+    {
+      "id": 26,
+      "text": "Which preference allows users to enter a quantity higher than the quantity committed for an item on an Item Fulfillment form?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Allow Overage on Item Fulfillments",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Invoice in Advance of Fulfillment",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Show Unfulfilled Items on Invoices",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Allow Overage on Item Commitments",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "This preference enables users to fulfill more than the committed quantity."
+    },
+    {
+      "id": 27,
+      "text": "Which of these Customer Payment Methods are supported in NetSuite?",
+      "type": "multiple",
+      "answers": [
+        {
+          "id": 1,
+          "text": "ACH Processing with Coastal Software",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Electronic Funds Transfer",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "PayPal Express for Web Stores",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "Credit Card Processing for Sales Orders",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "All listed payment methods are supported in NetSuite."
+    },
+    {
+      "id": 28,
+      "text": "Which transaction is created when clicking Refund in a Return Materials Authorization (RMA) record?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Bill Credit",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Inventory Adjustment",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Customer Refund",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "Cash Refund",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Clicking Refund in an RMA creates a Customer Refund transaction."
+    },
+    {
+      "id": 29,
+      "text": "Which statement is true about Customer Return Authorization records?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "If created with a Credit Form, the record generates a Customer Deposit.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "If created with a Credit Form, the record generates a Credit Memo.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "If created with a Cash Form, the record generates a Credit Memo.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "If created with a Cash Form, the record generates a Cash Sale.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Creating a Customer Return Authorization with a Credit Form generates a Credit Memo."
+    },
+    {
+      "id": 30,
+      "text": "Which item types may be used to cluster Item records and group them into one unit? (Choose 2.)",
+      "type": "multiple",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Service Items",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Assembly Items",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "Kit/Package Items",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "Lot-Numbered Items",
+          "isCorrect": false
+        },
+        {
+          "id": 5,
+          "text": "Non-inventory For Resale",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Assembly Items and Kit/Package Items can be used to group Item records."
+    },
+    {
+      "id": 31,
+      "text": "Which setting changes the quantity and value of an inventory item without entering a purchase order?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Order Items",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Adjust Inventory",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "Reallocate Items",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Review Negative Inventory",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The Adjust Inventory setting allows changes to quantity and value without a purchase order."
+    },
+    {
+      "id": 32,
+      "text": "Which feature enables users to define various units used to stock, purchase, and sell inventory items and to track non-monetary accounts?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Statistical Accounts",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Multiple Units of Measure",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "Lot Tracking",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Bar Coding and Item Labels",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The Multiple Units of Measure feature allows tracking of various units for inventory items."
+    },
+    {
+      "id": 33,
+      "text": "Which statement is true regarding Price Levels?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "When the Multiple Prices feature is enabled, users can create up to 1,000 Price Levels.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Users can only enter a discount percentage on Price Levels.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Users are not allowed to inactivate a Price Level when it has a discount/mark-up percentage.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Price Levels cannot have the same discount/mark-up percentage.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "With the Multiple Prices feature, up to 1,000 Price Levels can be created."
+    },
+    {
+      "id": 34,
+      "text": "Which accounting preference allows invoices to include memos on Time records when the Bill Costs for Customers feature is enabled?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Copy Source Memos to Invoices",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Copy Time Memos to Invoices",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Copy All Memos to Invoices",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Copy Expense Memos to Invoices",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The preference to copy source memos allows invoices to include memos from Time records."
+    },
+    {
+      "id": 35,
+      "text": "Which statement is true regarding the Standard Purchase Order Approval Routing process?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "A Purchase Request is automatically routed to the Supervisor if the Purchase Approver is unable to approve the transaction within 24 hours.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "If the Purchase Limit of the employee is set to zero, then all Purchase Requests are automatically approved, even if a Purchase Approver is set.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "A rejected Purchase Request can still be edited and resubmitted for approval.",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "A Purchase Request can no longer be edited once it has been approved.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Purchase Requests can be routed to a Supervisor if not approved in time, and rejected requests can be edited."
+    },
+    {
+      "id": 36,
+      "text": "At which status does a Vendor Bill affect Accounts Payable?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Pending Approval",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Open",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "Partially Billed",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Unpaid",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "A Vendor Bill affects Accounts Payable when it is in the Open status."
+    },
+    {
+      "id": 37,
+      "text": "Which value can users enter in Global Search to include inactive records?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "cu:-abc",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "cu:abc-",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "cu:+abc",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "cu:abc+",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Entering 'cu:+abc' in Global Search allows users to include inactive records."
+    },
+    {
+      "id": 38,
+      "text": "When added to the Criteria subtab of a Transaction search, which filter displays primary line data rows only?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Main Line = yes",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Item on Any Line = specify item",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Name = name of the item",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Main Line = any",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Using 'Main Line = yes' filters the search to show only primary line data rows."
+    },
+    {
+      "id": 39,
+      "text": "Which statement is true about portlets?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Portlet controls are shown by default but can be hidden by the user.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Portlets with content that is calculated from current data includes an Export function.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "All portlets can be expanded to full-screen view.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "A pop-up may display, suggesting that portlets can be minimized to speed up dashboard loading time.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Portlet controls are visible by default but can be hidden by users."
+    },
+    {
+      "id": 40,
+      "text": "Which statement is true about Mass Updates?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "A Mass Update definition must be saved before users can click Perform Update.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "The first step to perform a Mass Update is to define new values that will be reflected on records.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "On the Mass Update Preview Results page, users can exclude individual records.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Saved Mass Updates can be found on the list of Saved Searches.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Users must save a Mass Update definition before performing the update."
+    },
+    {
+      "id": 41,
+      "text": "Which resources under the Support tab can a user access to submit a case?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "NetSuite Administrator Group",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "NetSuite Account Center",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "NetSuite Support Aid",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "NetSuite Assistant",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Users can submit cases through the NetSuite Account Center."
+    },
+    {
+      "id": 42,
+      "text": "Which is a channel for contacting NetSuite Customer Support?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Submit a Support Ticket using the Employee Center role.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Start a Live Chat conversation at the NetSuite Visitor home page.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Email a NetSuite Customer Support representative directly.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Submit an Online Case via SuiteAnswers.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Users can submit support tickets through the Employee Center role."
+    },
+    {
+      "id": 43,
+      "text": "What can users find in SuiteAnswers, the NetSuite self-service support site?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "New Release Notes",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "User Account Provisioning details",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "End user license agreement",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "The user account's File Cabinet usage",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "SuiteAnswers provides access to New Release Notes among other resources."
+    },
+    {
+      "id": 44,
+      "text": "Which functionality is disabled in the Release Preview account?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Payroll",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Email Campaigns",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Two-Factor Authentication",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Memorized Transactions",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Payroll functionality is disabled in the Release Preview account."
+    },
+    {
+      "id": 45,
+      "text": "\"Don and Mark both have the Consultant role. The role has the Create permission for Opportunities. Under the Global Permissions subtab of his Employee record, Don is provisioned Edit permission for Opportunities. Which statement is true?\"",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "They can both edit Opportunity records.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Mark can create Opportunity records while Don can edit and create Opportunity records.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "Don can create Opportunity records while Mark can edit and create Opportunity records.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Neither Don nor Mark can edit Opportunity records.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Mark can create Opportunities, while Don has the ability to edit them due to his provisioned permissions."
+    },
+    {
+      "id": 46,
+      "text": "Which attribute cannot be modified when editing a custom role?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Inactive",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Center Type",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Employee Restrictions",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Two-Factor Authentication",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The Inactive attribute of a custom role cannot be modified once set."
+    },
+    {
+      "id": 47,
+      "text": "Which standard NetSuite role is set up with mandatory Two-Factor Authentication?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "CEO",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Administrator",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "Issue Administrator",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "CFO",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The Administrator role is configured to require Two-Factor Authentication."
+    },
+    {
+      "id": 48,
+      "text": "When is a user asked to answer a security question before they can log in to NetSuite?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "When the user provides an incorrect password upon initial login.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "If the user logs in using a role with two-factor authentication enabled.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "When a user proactively changes their password.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "If the user attempts to log in using a new computer.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Users are prompted to answer security questions when logging in with a role that has two-factor authentication enabled."
+    },
+    {
+      "id": 49,
+      "text": "What settings can users change by clicking Set Preferences from the Settings portlet?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Enable Features",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Company Preferences",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Accounting Preferences",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "User Preferences",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Users can change their User Preferences by clicking Set Preferences in the Settings portlet."
+    },
+    {
+      "id": 50,
+      "text": "Where can you find logged OLD and NEW GL Impact of some transaction?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "System notes",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "My Login Audit",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Transaction Audit Trail",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Transaction Numbering Audit Log",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The System notes feature logs the OLD and NEW GL impacts of transactions."
+    }
+  ]
+}

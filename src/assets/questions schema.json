@@ -1,0 +1,60 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "text": "Which of the following is a key benefit of using NetSuite's unified business management suite?",
+        "type": "single",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Real-time visibility across all business operations",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "text": "Limited customization options",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "text": "Single-currency support",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "text": "Local-only deployment",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "NetSuite provides real-time visibility across all business operations through its unified suite, allowing organizations to make informed decisions based on accurate, up-to-date information."
+      },
+      {
+        "id": 2,
+        "text": "Which of the following features are available in NetSuite? (Select all that apply)",
+        "type": "multiple",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Financial Management",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "text": "Customer Relationship Management",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "text": "Professional Services Automation",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "text": "Operating System Management",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "NetSuite includes Financial Management, CRM, and PSA as core functionalities within its unified business suite."
+      }
+    ]
+  }
