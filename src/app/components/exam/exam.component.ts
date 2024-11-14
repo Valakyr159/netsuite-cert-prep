@@ -4,7 +4,9 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { ExamService } from '../../services/exam.service';
 import { Question, ExamConfig, Answer, ExamYear } from '../../models/question.interface';
-import { QuestionNavComponent } from '../../question-nav/question-nav.component';
+import { QuestionNavComponent } from '../question-nav/question-nav.component';
+import { CircularTimerComponent } from '../circular-timer/circular-timer.component';
+
 
 interface AnswerState {
   selected: boolean;
@@ -15,7 +17,7 @@ interface AnswerState {
 @Component({
   selector: 'app-exam',
   standalone: true,
-  imports: [CommonModule, FormsModule, HttpClientModule, QuestionNavComponent],
+  imports: [CommonModule, FormsModule, HttpClientModule, QuestionNavComponent, CircularTimerComponent],
   template: `
     <div class="min-h-screen bg-gray-100 p-4 lg:p-6">
       <!-- Config Section -->
@@ -85,9 +87,7 @@ interface AnswerState {
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             <!-- Timer -->
             <div class="flex items-center justify-center sm:justify-start">
-              <div class="text-lg font-semibold" [ngClass]="{'text-red-500': remainingTimeDisplay.startsWith('0:')}">
-                Time: {{remainingTimeDisplay}}
-              </div>
+              <app-circular-timer [remainingTime]="remainingTimeDisplay"></app-circular-timer>
             </div>
 
             <!-- Question Counter -->
@@ -241,7 +241,7 @@ export class ExamComponent implements OnInit, OnDestroy {
   subsetOptions: { id: string; name: string }[] = [];
   selectedYear = '2023';
   selectedSubset = 'full';
-  remainingTimeDisplay = '';
+  remainingTimeDisplay: number = 0;
   questionStatus = {
     answered: 0,
     skipped: 0,
@@ -287,10 +287,8 @@ export class ExamComponent implements OnInit, OnDestroy {
   ngOnInit() {
     // Subscribe to timer
     this.examService.getRemainingTime().subscribe(time => {
-      const minutes = Math.floor(time / 60);
-      const seconds = time % 60;
-      this.remainingTimeDisplay = `${minutes}:${seconds.toString().padStart(2, '0')}`;
-    });
+      this.remainingTimeDisplay = time; 
+  });
   }
 
   ngOnDestroy() {

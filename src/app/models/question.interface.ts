@@ -26,6 +26,7 @@ export interface Answer {
       start: number;
       end: number;
     };
+    subsetSize?: number;
     randomCount?: number;
   }
 

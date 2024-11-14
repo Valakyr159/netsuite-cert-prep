@@ -1,6 +1,6 @@
 import { Component, Input, Output, EventEmitter, ViewChild, ElementRef, AfterViewInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Question } from '../models/question.interface';
+import { Question } from '../../models/question.interface';
 
 @Component({
   selector: 'app-question-nav',
@@ -11,8 +11,6 @@ import { Question } from '../models/question.interface';
       <div class="flex justify-between items-center mb-4">
         <h3 class="text-lg font-semibold text-gray-800">Question Navigation</h3>
         <div class="flex items-center gap-4">
-          <div class="flex items-center">
-          </div>
           <button
             (click)="toggleExpand()"
             class="px-4 py-2 text-sm font-medium text-blue-600 hover:text-blue-800 hover:bg-blue-50 rounded-md transition-colors duration-200"
@@ -93,7 +91,7 @@ export class QuestionNavComponent implements AfterViewInit {
 
   getQuestionButtonClass(question: Question, index: number): string {
     const baseClasses = `
-      w-10 h-10 rounded-full font-medium transition-all duration-200
+      w-1400 h-10 rounded-full font-medium transition-all duration-200
       focus:outline-none focus:ring-2 focus:ring-offset-2
       flex items-center justify-center shadow-sm
       transform hover:scale-105
