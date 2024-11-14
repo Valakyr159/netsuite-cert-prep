@@ -10,10 +10,26 @@ export interface Answer {
     type: 'single' | 'multiple';
     answers: Answer[];
     explanation?: string;
+    isSkipped?: boolean;
+    isAnswered?: boolean;
   }
   
   export interface ExamConfig {
+    randomize: any;
     showAnswersImmediately: boolean;
     timeLimit: number; // in minutes
     passingScore: number;
+    examYear: string;
+    subsetType: 'full' | 'range' | 'random';
+    questionRange?: {
+      start: number;
+      end: number;
+    };
+    randomCount?: number;
+  }
+
+  export interface ExamYear {
+    year: string;
+    totalQuestions: number;
+    subsetSize: number;
   }
