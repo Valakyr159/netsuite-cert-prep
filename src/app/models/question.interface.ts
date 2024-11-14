@@ -12,6 +12,7 @@ export interface Answer {
     explanation?: string;
     isSkipped?: boolean;
     isAnswered?: boolean;
+    isIncorrect?: boolean;
   }
   
   export interface ExamConfig {

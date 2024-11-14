@@ -15,7 +15,7 @@ interface AnswerState {
 @Component({
   selector: 'app-exam',
   standalone: true,
-  imports: [CommonModule, FormsModule, HttpClientModule, QuestionNavComponent ],
+  imports: [CommonModule, FormsModule, HttpClientModule, QuestionNavComponent],
   template: `
     <div class="min-h-screen bg-gray-100 p-4 lg:p-6">
       <!-- Config Section -->
@@ -261,14 +261,19 @@ export class ExamComponent implements OnInit, OnDestroy {
   startExam() {
     const subsetConfig = this.examService.parseSubsetOption(this.selectedSubset);
 
-    this.examService.setExamConfig({
-      ...this.examConfig,
-      examYear: this.selectedYear,
-      ...subsetConfig
-    });
-
     this.examService.loadQuestions(this.selectedYear)
       .subscribe(questions => {
+        // Calculate time limit based on number of questions
+        const timeLimit = this.examService.calculateTimeLimit(questions);
+
+        this.examConfig = {
+          ...this.examConfig,
+          examYear: this.selectedYear,
+          timeLimit: timeLimit, // 2 minutes per question
+          ...subsetConfig
+        };
+
+        this.examService.setExamConfig(this.examConfig);
         this.examService.setQuestions(questions);
         this.questions = this.examService.getQuestions();
         this.currentQuestion = this.questions[0];
@@ -291,6 +296,8 @@ export class ExamComponent implements OnInit, OnDestroy {
   ngOnDestroy() {
     this.examService.stopTimer();
   }
+
+
 
 
   skipQuestion() {
@@ -379,8 +386,11 @@ export class ExamComponent implements OnInit, OnDestroy {
 
     if (isCorrect) {
       this.examService.markQuestionAnswered(this.currentQuestion.id);
-      this.updateQuestionStatus();
+    } else {
+      this.examService.markQuestionIncorrect(this.currentQuestion.id);
     }
+
+    this.updateQuestionStatus();
 
     // Reveal correct/incorrect answers
     this.currentQuestion.answers.forEach(answer => {

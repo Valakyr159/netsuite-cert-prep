@@ -255,4 +255,29 @@ export class ExamService {
     
     return (correctAnswers / this.questions.length) * 100;
   }
+
+  calculateTimeLimit(questions: Question[]): number {
+    // 2 minutes per question
+    return questions.length * 2;
+  }
+
+  markQuestionIncorrect(questionId: number): void {
+    const question = this.questions.find(q => q.id === questionId);
+    if (question) {
+      question.isIncorrect = true;
+      question.isAnswered = true;
+      question.isSkipped = false;
+    }
+  }
+
+  formatTime(totalSeconds: number): string {
+    const hours = Math.floor(totalSeconds / 3600);
+    const minutes = Math.floor((totalSeconds % 3600) / 60);
+    const seconds = totalSeconds % 60;
+
+    if (hours > 0) {
+      return `${hours}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+    }
+    return `${minutes}:${seconds.toString().padStart(2, '0')}`;
+  }
 }
