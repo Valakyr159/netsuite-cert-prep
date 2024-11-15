@@ -1,14 +1,19 @@
 import { Component, Input, Output, EventEmitter, ViewChild, ElementRef, AfterViewInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Question } from '../../models/question.interface';
+import { CircularTimerComponent } from '../circular-timer/circular-timer.component';
+
 
 @Component({
   selector: 'app-question-nav',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, CircularTimerComponent],
   template: `
     <div class="w-full bg-white shadow-md rounded-lg p-6">
       <div class="flex justify-between items-center mb-4">
+        <div class="flex items-center justify-center sm:justify-start">
+          <app-circular-timer></app-circular-timer>
+        </div>
         <h3 class="text-lg font-semibold text-gray-800">Question Navigation</h3>
         <div class="flex items-center gap-4">
           <button
@@ -67,6 +72,7 @@ export class QuestionNavComponent implements AfterViewInit {
   @Input() currentIndex: number = 0;
   @Output() questionSelected = new EventEmitter<number>();
   @ViewChild('scrollContainer') scrollContainer!: ElementRef;
+  @Input() remainingTimeDisplay = 0;
   
   isExpanded = false;
 
@@ -118,4 +124,6 @@ export class QuestionNavComponent implements AfterViewInit {
       this.scrollToCurrentQuestion();
     }
   }
+
+
 }

@@ -1,4 +1,6 @@
 import { Component, Input } from '@angular/core';
+import { ExamService } from '../../services/exam.service';
+
 
 @Component({
   selector: 'app-circular-timer',
@@ -33,7 +35,14 @@ import { Component, Input } from '@angular/core';
   `,
 })
 export class CircularTimerComponent {
-  @Input() remainingTime: number = 0;
+  remainingTime: number = 0;
+  
+  constructor(private examService: ExamService) {
+  }
+  
+  updateSubsetOptions() {
+    throw new Error('Method not implemented.');
+  }
 
   get circumference(): number {
     return 2 * Math.PI * 34;
@@ -48,4 +57,16 @@ export class CircularTimerComponent {
     const seconds = this.remainingTime % 60;
     return `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
   }
+
+  ngOnInit() {
+    // Subscribe to timer
+    this.examService.getRemainingTime().subscribe(time => {
+      this.remainingTime = time; 
+  });
+  }
+
+  ngOnDestroy() {
+    this.examService.stopTimer();
+  }
+  
 }

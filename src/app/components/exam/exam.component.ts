@@ -1,4 +1,4 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
@@ -85,10 +85,7 @@ interface AnswerState {
         <!-- Top Stats Bar -->
         <div class="bg-white shadow-md rounded-lg p-4 mb-4">
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            <!-- Timer -->
-            <div class="flex items-center justify-center sm:justify-start">
-              <app-circular-timer [remainingTime]="remainingTimeDisplay"></app-circular-timer>
-            </div>
+
 
             <!-- Question Counter -->
             <div class="flex items-center justify-center text-gray-700">
@@ -104,12 +101,7 @@ interface AnswerState {
           </div>
         </div>
 
-        <!-- Question Navigation -->
-        <app-question-nav
-          [questions]="questions"
-          [currentIndex]="currentQuestionIndex"
-          (questionSelected)="goToQuestion($event)"
-        ></app-question-nav>
+
 
         <!-- Question Content -->
         <div class="bg-white shadow-lg rounded-lg p-4 lg:p-8" *ngIf="currentQuestion">
@@ -191,7 +183,20 @@ interface AnswerState {
             </button>
           </div>
         </div>
-      </div>
+
+        <!-- Question Navigation -->
+                     <!-- Timer -->
+
+        <app-question-nav
+          [questions]="questions"
+          [currentIndex]="currentQuestionIndex"
+          (questionSelected)="goToQuestion($event)"
+        ></app-question-nav>
+        </div>
+      
+
+
+      
 
       <!-- Results Modal -->
       <div *ngIf="showResults" 
