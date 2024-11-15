@@ -11,10 +11,12 @@ import { CircularTimerComponent } from '../circular-timer/circular-timer.compone
   template: `
     <div class="w-full bg-white shadow-md rounded-lg p-6">
       <div class="flex justify-between items-center mb-4">
+        <!--
         <div class="flex items-center justify-center sm:justify-start">
           <app-circular-timer></app-circular-timer>
         </div>
-        <h3 class="text-lg font-semibold text-gray-800">Question Navigation</h3>
+        -->
+        <h3 class="text-lg text-gray-800">Question Navigation</h3>
         <div class="flex items-center gap-4">
           <button
             (click)="toggleExpand()"

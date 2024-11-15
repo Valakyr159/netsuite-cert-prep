@@ -82,24 +82,26 @@ interface AnswerState {
 
       <!-- Exam Section -->
       <div *ngIf="examStarted" class="max-w-4xl mx-auto">
-        <!-- Top Stats Bar -->
+
+      
+        <!-- Top Stats Bar --
         <div class="bg-white shadow-md rounded-lg p-4 mb-4">
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
 
 
-            <!-- Question Counter -->
+            -- Question Counter --
             <div class="flex items-center justify-center text-gray-700">
               Question {{currentQuestionIndex + 1}} of {{questions.length}}
             </div>
 
-            <!-- Status -->
+            -- Status -- 
             <div class="flex justify-center sm:justify-end gap-4 text-sm">
               <span class="text-green-600">✓ {{questionStatus.answered}}</span>
               <span class="text-yellow-600">↷ {{questionStatus.skipped}}</span>
               <span class="text-gray-600">○ {{questionStatus.remaining}}</span>
             </div>
           </div>
-        </div>
+        </div> -->
 
 
 
@@ -112,7 +114,7 @@ interface AnswerState {
           </div>
 
           <!-- Question Text -->
-          <div class="text-lg font-medium mb-6 text-gray-800">
+          <div class="text-lg font-semibold mb-6 text-gray-800">
             {{currentQuestion.text}}
           </div>
 
@@ -185,18 +187,12 @@ interface AnswerState {
         </div>
 
         <!-- Question Navigation -->
-                     <!-- Timer -->
-
         <app-question-nav
           [questions]="questions"
           [currentIndex]="currentQuestionIndex"
           (questionSelected)="goToQuestion($event)"
         ></app-question-nav>
         </div>
-      
-
-
-      
 
       <!-- Results Modal -->
       <div *ngIf="showResults" 
