@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { BehaviorSubject, Observable, map } from 'rxjs';
-import { Question, ExamConfig, ExamYear } from '../models/question.interface';
+import { Question, ExamConfig, ExamSet } from '../models/question.interface';
 
 @Injectable({
   providedIn: 'root'
@@ -14,17 +14,16 @@ export class ExamService {
     showAnswersImmediately: false,
     timeLimit: 120,
     passingScore: 70,
-    examYear: '2023',
+    examSet: 'Examtopics',
     subsetType: 'full',
     randomize: undefined
   };
   private remainingTime = new BehaviorSubject<number>(120 * 60); // seconds
   private timer: any;
 
-  private availableYears: ExamYear[] = [
-    { year: '2023', totalQuestions: 50, subsetSize: 10 },
-    { year: '2022', totalQuestions: 50, subsetSize: 10 },
-    { year: '2021', totalQuestions: 50, subsetSize: 10 }
+  private availableSets: ExamSet[] = [
+    { set: 'Examtopics', totalQuestions: 30, subsetSize: 10 },
+    { set: '2024', totalQuestions: 50, subsetSize: 10 },
   ];
 
   constructor(private http: HttpClient) {}
@@ -45,12 +44,12 @@ export class ExamService {
   }
 
 
-  getAvailableYears(): ExamYear[] {
-    return this.availableYears;
+  getAvailableSets(): ExamSet[] {
+    return this.availableSets;
   }
 
   getSubsetOptions(year: string): { id: string; name: string }[] {
-    const yearConfig = this.availableYears.find(y => y.year === year);
+    const yearConfig = this.availableSets.find(y => y.set === year);
     if (!yearConfig) return [];
 
     const options = [
@@ -77,8 +76,8 @@ export class ExamService {
     return options;
   }
 
-  loadQuestions(year: string): Observable<Question[]> {
-    return this.http.get<{questions: Question[]}>(`assets/questions-SFCT${year}.json`)
+  loadQuestions(set: string): Observable<Question[]> {
+    return this.http.get<{questions: Question[]}>(`assets/${set}.json`)
       .pipe(
         map(response => response.questions)
       );
@@ -155,7 +154,7 @@ export class ExamService {
     }
     
     if (optionId === 'random') {
-      const yearConfig = this.availableYears.find(y => y.year === this.examConfig.examYear);
+      const yearConfig = this.availableSets.find(y => y.set === this.examConfig.examSet);
       return {
         subsetType: 'random',
         randomCount: yearConfig?.subsetSize || 10

@@ -1,0 +1,849 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "text": "An Administrator would like to track changes to the item quantity on a Sales Order. Which functionality would the Administrator use?",
+        "type": "single",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Line-Level Audit Trail for Transactions",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "text": "Transaction Audit Trail",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "text": "Transaction System Notes",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "text": "Track Changes Option",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The Line-Level Audit Trail for Transactions feature specifically tracks changes made to individual lines within a transaction, such as a Sales Order. It records details like the old and new values of fields, the date and time of the change, and the user who made the change. This is the most precise option for tracking item quantity changes on a Sales Order."
+      },
+      {
+        "id": 2,
+        "text": "Which portlet displays summary data from reports or Saved Searches for selected date ranges, with options to show comparisons between date ranges and to highlight results not meeting defined thresholds?",
+        "type": "single",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Reports Snapshot",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "text": "Key Performance Indicators",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "text": "Account Reconciliation Summary",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "text": "SMT Links",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Key Performance Indicators (KPIs) portlets are designed to display summary data from reports or Saved Searches within customizable date ranges. They offer features like date range comparisons and threshold highlighting, making them ideal for monitoring key business metrics."
+      },
+      {
+        "id": 3,
+        "text": "Which record is a non-posting transaction?",
+        "type": "single",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Return Receipts",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "text": "Credit Memo",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "text": "Sales Order",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "text": "Statement Charges",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A Sales Order is a non-posting transaction that represents a contract between a buyer and a seller for the sale of goods or services. It outlines the terms of the sale but does not directly impact the general ledger or financial statements until it is converted into a posting transaction like an Invoice or Sales Receipt."
+      },
+      {
+        "id": 4,
+        "text": "Which statement is true about access levels for NetSuite permissions?",
+        "type": "single",
+        "answers": [
+          {
+            "id": 1,
+            "text": "The Create access level allows editing records.",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "text": "The Edit access level does not allow deleting records.",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "text": "The Partial access level allows editing but not creating records.",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "text": "The View access level does not allow printing records.",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The Edit access level allows users to view and edit existing records but does not permit the deletion of records. This level of access ensures that users can make necessary changes without the risk of accidentally or intentionally deleting important data."
+      },
+      {
+        "id": 5,
+        "text": "Which portlet shows a graphical representation of Key Performance Indicator (KPI) data?",
+        "type": "single",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Key Performance Indicators",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "text": "KPI Meter",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "text": "KPI Scorecard",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "text": "Trend Graphs",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "The KPI Meter portlet uses a visual meter to display the value of a single Key Performance Indicator (KPI). The meter often includes a color-coded scale to quickly indicate whether the KPI is meeting expectations, falling short, or significantly underperforming."
+      },
+      {
+        "id": 6,
+        "text": "Which statement is true about customer credit memos and inventory items?",
+        "type": "single",
+        "answers": [
+          {
+            "id": 1,
+            "text": "A credit memo created from a return authorization has no impact on inventory, however, a stand-alone credit memo does impact inventory.",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "text": "A credit memo created from a return authorization reduces inventory quantity.",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "text": "A credit memo created from a return authorization impacts inventory, while a stand-alone credit memo does not impact inventory.",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "text": "A stand-alone credit memo reduces inventory quantity.",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A credit memo created from a return authorization does not impact inventory because it is linked to the expected return of items. Inventory impact occurs when the items are received back into inventory. A stand-alone credit memo, however, directly impacts inventory."
+      },
+      {
+        "id": 7,
+        "text": "Which Source can automatically create Lead records?",
+        "type": "single",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Web Site",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "text": "Chat",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "text": "Campaigns",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "text": "Email",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "When visitors fill out forms on your website, the information submitted can be automatically captured and used to create new Lead records in NetSuite. This streamlines the lead capture process and ensures that no leads are missed."
+      },
+      {
+        "id": 8,
+        "text": "A user is trying to view a standard report in NetSuite. The report has been loading for three minutes. The user suspects that the slowness is caused by using a recently installed browser. Which of the following actions will confirm that the performance issue is caused by the browser or not?",
+        "type": "single",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Use the Application Performance Management to improve performance.",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "text": "Run the same report in a different window while the original report is still running.",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "text": "Double-click the Oracle NetSuite logo and look at Browser Time.",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "text": "Log in to NetSuite using a different browser and check the report performance.",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "Logging in to NetSuite using a different browser and checking the report performance directly tests the browser's influence. If the report loads significantly faster in the other browser, it suggests that the issue lies with the recently installed browser or its compatibility with NetSuite."
+      },
+      {
+        "id": 9,
+      "text": "Which statement explains why an inactive classification still appears in Financial Reports?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "The Administrator customized the report using the Financial Report Builder to include the inactive classification.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "The accounting preference Include Inactive Classifications is checked.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Inactive classifications still appear to provide historical reporting and to avoid unbalanced totals.",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "Inactive classifications show, but with the identifier (Inactive).",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Inactive classifications still appear in financial reports to provide historical reporting and to avoid unbalanced totals. This ensures that historical financial data remains accurate and complete, allowing for a comprehensive understanding of past financial performance."
+    },
+    {
+      "id": 10,
+      "text": "Mr. Boseman, a Sales Manager, wants to select another team’s sales rep in the Customer record, but he sees only his own subordinates in the list. Which option in the Custom Role page does he need to enable to select a sales rep outside his team?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Allow All Records",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Do Not Restrict This Role by Device ID",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Allow Cross-Subsidiary Record Viewing",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Do Not Restrict Employee Fields",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The 'Do Not Restrict Employee Fields' option within a custom role allows users to select any employee in fields related to employees, such as the 'Sales Rep' field on a Customer record. This overrides the default restriction that limits selections to the user's own team or subordinates."
+    },
+    {
+      "id": 11,
+      "text": "Which two can users rename on the Rename Records/Transactions page? (Choose two.)",
+      "type": "multiple",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Account types",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Units of Measure",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Report types",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Entities",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Users with the Administrator role can rename account types and other entities on the Rename Records/Transactions page in NetSuite. This allows for customization of terminology to better fit the organization's needs."
+    },
+    {
+      "id": 12,
+      "text": "Which Subsidiary Restriction type limits a role’s access to a selected subsidiary on their Employee record?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Employee Subsidiary",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "All",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Subsidiary",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Selected",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The 'Selected' Subsidiary Restriction type allows the administrator to specifically select the subsidiaries that users with this role can access. This ensures that they can only view, edit, and work with data relevant to their assigned subsidiary."
+    },
+    {
+      "id": 13,
+      "text": "How can an Administrator access open case tickets submitted to NetSuite Support by another user?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Using the Administrator role, navigate to Lists > Support > Cases.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "In SuiteAnswers, below the Contact Support Online button, click the Open Cases link.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Access the Help Center and search for Case Tickets.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Click the NetSuite Account Center portlet link in the Support tab.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "By clicking the NetSuite Account Center portlet link in the Support tab, users with the appropriate permissions can log in to the NetSuite Account Center to see the status of support cases submitted by themselves or other users."
+    },
+    {
+      "id": 14,
+      "text": "Maya is using a custom role that has the Import CSV File permission. On the Import Options page of the CSV Import Assistant, Maya can only select Data Handling of Add. What is the reason for this?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "The custom role has the Edit level permission for the record type she is importing.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "The custom role’s permission level for Import CSV File is not set to Full.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "The custom role has the Create permission level for the record type she is importing.",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "The custom role’s permission level for Import CSV File is set to Create.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "If Maya's custom role has the 'Import CSV File' permission set to 'Create,' she will only be able to select 'Add' as the Data Handling option in the Import Assistant. This restriction ensures that users with this role can only create new records through CSV imports and cannot modify existing data."
+    },
+    {
+      "id": 15,
+      "text": "When enabled, which feature allows users to track multiple Key Performance Indicators (KPIs) with different date ranges?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Key Performance Indicators",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "KPI Meters",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Dashboard and Reports",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "KPI Scorecards",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "KPI Scorecards allow users to track multiple KPIs within a single scorecard, each with its own unique date range. This enables users to compare performance across different periods for each metric, providing a comprehensive overview of key performance metrics."
+    },
+    {
+      "id": 16,
+      "text": "Which actions can users perform from the Settings portlet? (Choose two.)",
+      "type": "multiple",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Add Permissions",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Enable Features",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Create a Custom Record",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Change Password",
+          "isCorrect": true
+        },
+        {
+          "id": 5,
+          "text": "Personalize Dashboard",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "From the Settings portlet, users can change their password and personalize their dashboard by adding, removing, and rearranging portlets to suit their individual needs and preferences."
+    },
+    {
+      "id": 17,
+      "text": "Which criteria are required for a field to be available for Mass Update? (Choose two.)",
+      "type": "multiple",
+      "answers": [
+        {
+          "id": 1,
+          "text": "For custom fields, the field must not be stored and must have a sourcing relationship.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "For standard fields, the field must have dependencies on other fields.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "The field must be displayed on the preferred form for the record type being updated.",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "The field must support inline editing.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "For a field to be available for Mass Update, it must support inline editing and be displayed on the preferred form for the record type being updated. These criteria ensure that the field is easily modifiable and relevant for updates."
+    },
+    {
+      "id": 18,
+      "text": "Which Select All checkbox under the Audience subtab defaults to checked when a Saved Search is set to Public?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Roles",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Employees",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Partners",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Subsidiaries",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The 'Roles' Select All checkbox under the Audience subtab defaults to checked when a Saved Search is set to Public. This ensures that the search is accessible to all users within the defined roles in the account."
+    },
+    {
+      "id": 19,
+      "text": "Which statement is true when using popup and dropdown lists in NetSuite?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Enter # in the Maximum Entries in Dropdowns field to always use popup lists.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "To quickly enter a single value in a MultiSelect Popup List, type the first few letters of the value and press Tab.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "Enter the record prefix followed by the first letters of a value to automatically populate a dropdown list.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "When the Popup Auto Suggest preference is enabled, NetSuite suggests matching records after typing five (5) or more characters.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "To quickly enter a single value in a MultiSelect Popup List, type the first few letters of the value and press Tab. This shortcut improves efficiency when working with these fields."
+    },
+    {
+      "id": 20,
+      "text": "Which feature enables users to create custom Classifications in NetSuite?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Custom Divisions",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Custom Sections",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Custom Classifications",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Custom Segments",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The Custom Segments feature in NetSuite allows users to create custom classification fields. This feature provides flexibility in defining and applying custom segments to specific record types."
+    },
+    {
+      "id": 21,
+      "text": "Which URL accesses the release Preview Environment?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "https://system.netsuite.com",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "https://beta.netsuite.com",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "https://release-preview.netsuite.com",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "https://system.beta.netsuite.com",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "To access the Release Preview account in NetSuite, you can use the same URL you use to access your production account, which is https://system.netsuite.com. This environment allows users to test new features in the upcoming release."
+    },
+    {
+      "id": 22,
+      "text": "Which user-level preference lets you choose whether to print records in PDF or HTML format?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Print Template",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "PDF Language",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "PDF Page Orientation",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Print Using HTML",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The 'Print Using HTML' preference allows users to choose whether to print records in PDF or HTML format. This setting provides flexibility in the output format for printed documents."
+    },
+    {
+      "id": 23,
+      "text": "What Subsidiary type is used to eliminate revenue and expenses at the consolidated level, removing the effect of transactions between subsidiaries?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Elimination Subsidiary",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Consolidation Subsidiary",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Parent Subsidiary",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Child Subsidiary",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "An Elimination Subsidiary is used to record elimination journal entries, which remove the impact of intercompany transactions between subsidiaries when preparing consolidated financial statements."
+    },
+    {
+      "id": 24,
+      "text": "Which statement is true about Two-Factor Authentication?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "The user must enter a verification code that is sent to their email address every time they log in.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "The duration of the trusted device can only be set to Per Session.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Two-Factor Authentication is required for highly privileged NetSuite roles (e.g., Sales Administrator).",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "Users need separate Two-Factor Authentication setups for each account.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Two-Factor Authentication (2FA) is required for highly privileged NetSuite roles, such as Sales Administrator, to add an extra layer of security and protect sensitive data from unauthorized access."
+    },
+    {
+      "id": 25,
+      "text": "Which transaction will have a GL Impact on Accounts Payable?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Pending Bill Purchase Order",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Cancelled Bill",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Open Bill with Payment Hold",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "text": "Fully Billed Purchase Order",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "An Open Bill with Payment Hold directly impacts Accounts Payable as it represents an outstanding liability that needs to be accounted for, even though the payment is on hold."
+    },
+    {
+      "id": 26,
+      "text": "What kind of custom field can Administrators create to add a column on the Item sublist of Sales Orders?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Custom Transaction Body fields",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Custom Transaction Line fields",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "Custom Item fields",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Custom Transaction Item options",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "Custom Transaction Line fields are specifically designed to be added to the sublists of transactions like Sales Orders. These fields allow you to capture and store additional information relevant to each line item within a transaction."
+    },
+    {
+      "id": 27,
+      "text": "Which feature allows customers to view an online transaction history, get quotes, and make payments within NetSuite?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Web Site",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Payment Center",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Customer Hub",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Customer Access",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The Customer Access feature in NetSuite allows customers to access their account and perform actions such as viewing orders, invoices, and payments. This feature enhances customer self-service capabilities."
+    },
+    {
+      "id": 28,
+      "text": "Which feature provides information about a specific field and can be accessed while editing or viewing a record? The Internal ID of the field can also be seen here.",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Help Guide",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Help",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Field Description",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Field Level Help",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Field Level Help provides a brief explanation of the field's purpose and displays the Internal ID of the field. This feature is accessible by hovering over a field label within a record."
+    },
+    {
+      "id": 29,
+      "text": "A user renamed the Customer entity record to Client in the Rename Records/Transactions Page. After navigating to Lists > Relationships, the user still sees Customer as the name of the record instead of Client. Why is this the case?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "The user created a custom Center tab named Client under Lists > Relationships. Name changes are applied to standard NetSuite element names, but not to customized elements.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "The user renamed the Customer to Client in the English (U.S.) language, but is currently using English UK as the language under Home > Set Preferences > General > Localization > Language.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "The user must have at least a Full/Edit level permission to Rename Records/Transactions in order for changes to save.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "The user is logged into another role that uses the classic Center tab. Since renaming records or transactions is a user preference, the name change does not apply to that role.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "Renaming records or transactions is a user-level preference. If the user switches to a role that utilizes the classic version of the Center tab, the original record name (Customer) would still be displayed. This is because the classic view might not dynamically reflect the user's personalized record name changes."
+    },
+    {
+      "id": 30,
+      "text": "Which statement is true about the Multi-Location Inventory feature?",
+      "type": "single",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Multi-Location Inventory only works for regular inventory items.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "All Purchase Orders and Sales Orders should have a status of Fully Billed before enabling Multi-Location Inventory.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Quantity on Hand must have a zero value before enabling Multi-Location Inventory.",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "text": "Inventory Distribution is required to move the quantity to locations after enabling Multi-Location Inventory.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "When you enable Multi-Location Inventory, you need to use the Inventory Distribution feature to move your existing on-hand quantities to their respective locations. This process ensures accurate tracking of inventory levels across different physical locations."
+    }
+  ]
+}

@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { ExamService } from '../../services/exam.service';
-import { Question, ExamConfig, Answer, ExamYear } from '../../models/question.interface';
+import { Question, ExamConfig, Answer, ExamSet } from '../../models/question.interface';
 import { QuestionNavComponent } from '../question-nav/question-nav.component';
 import { CircularTimerComponent } from '../circular-timer/circular-timer.component';
 
@@ -29,12 +29,12 @@ interface AnswerState {
           <div class="space-y-6">
             <div class="grid gap-4 sm:grid-cols-2">
               <div>
-                <label class="block text-sm font-medium text-gray-700 mb-2">Select Exam Year</label>
-                <select [(ngModel)]="selectedYear" 
+                <label class="block text-sm font-medium text-gray-700 mb-2">Select Exam Set</label>
+                <select [(ngModel)]="selectedSet" 
                         (ngModelChange)="updateSubsetOptions()"
                         class="w-full rounded-lg border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
-                  <option *ngFor="let exam of availableYears" [value]="exam.year">
-                    {{exam.year}} Certification Exam
+                  <option *ngFor="let exam of availableSets" [value]="exam.set">
+                    {{exam.set}} Certification Exam
                   </option>
                 </select>
               </div>
@@ -234,13 +234,13 @@ export class ExamComponent implements OnInit, OnDestroy {
     showAnswersImmediately: false,
     timeLimit: 120,
     passingScore: 70,
-    examYear: '',
+    examSet: '',
     subsetType: 'full',
     randomize: undefined
   };
-  availableYears: ExamYear[] = [];
+  availableSets: ExamSet[] = [];
   subsetOptions: { id: string; name: string }[] = [];
-  selectedYear = '2023';
+  selectedSet = 'Examtopics';
   selectedSubset = 'full';
   remainingTimeDisplay: number = 0;
   questionStatus = {
@@ -250,26 +250,26 @@ export class ExamComponent implements OnInit, OnDestroy {
   };
 
   constructor(private examService: ExamService) {
-    this.availableYears = this.examService.getAvailableYears();
+    this.availableSets = this.examService.getAvailableSets();
     this.updateSubsetOptions();
   }
 
   updateSubsetOptions() {
-    this.subsetOptions = this.examService.getSubsetOptions(this.selectedYear);
+    this.subsetOptions = this.examService.getSubsetOptions(this.selectedSet);
     this.selectedSubset = 'full'; // Reset to full exam when year changes
   }
 
   startExam() {
     const subsetConfig = this.examService.parseSubsetOption(this.selectedSubset);
 
-    this.examService.loadQuestions(this.selectedYear)
+    this.examService.loadQuestions(this.selectedSet)
       .subscribe(questions => {
         // Calculate time limit based on number of questions
         const timeLimit = this.examService.calculateTimeLimit(questions);
 
         this.examConfig = {
           ...this.examConfig,
-          examYear: this.selectedYear,
+          examSet: this.selectedSet,
           timeLimit: timeLimit, // 2 minutes per question
           ...subsetConfig
         };

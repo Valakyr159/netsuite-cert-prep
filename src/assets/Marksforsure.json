@@ -1,0 +1,826 @@
+Questions 1
+Which preference allows users to see the Field ID in the Field Level Help?
+
+Options:
+A.
+Show App ID Field
+
+B.
+Show Internal IDs
+
+C.
+Show Field IDs
+
+D.
+Show ID Fields on Sublists
+
+ 
+Questions 2
+Which item types may be used to cluster Item records and group them into one unit? (Choose 2.)
+
+Options:
+A.
+Service Items
+
+B.
+Assembly Items
+
+C.
+Kit/Package Items
+
+D.
+Lot-Numbered Items
+
+E.
+Non-inventory For Resale
+
+ 
+Questions 3
+Mr. Boseman, a Sales Manager, wants to select another team's sales rep in the Customer record, but he sees only his own subordinates in the list. Which option in the Custom Role page does he need to enable to select a sales rep outside his team?
+
+Options:
+A.
+Allow All Records
+
+B.
+Do Not Restrict This Role by Device ID
+
+C.
+Allow Cross-Subsidiary Record Viewing
+
+D.
+Do Not Restrict Employee Fields
+
+Questions 4
+Which portlet displays summary data from reports or Saved Searches for selected date ranges, with options to show comparisons between date ranges and to highlight results not meeting defined thresholds?
+
+Options:
+A.
+Reports Snapshot
+
+B.
+Key Performance Indicators
+
+C.
+Account Reconciliation Summary
+
+D.
+SMT Links
+
+ 
+Questions 5
+Which New Release portlet resource allows users to watch presentations and demonstrations on new features and enhancements in Suite Answers?
+
+Options:
+A.
+Training Resources
+
+B.
+Sneak Peeks
+
+C.
+Release Notes
+
+D.
+Release Preview Test Plan
+
+ 
+Questions 6
+What is the first step an Admin should take after being notified that an employee will be terminated?
+
+Options:
+A.
+Delete the Employee record.
+
+B.
+Inactivate the Employee record.
+
+C.
+Change the Employee's password.
+
+D.
+Remove System Access for Employee.
+
+ 
+Questions 7
+Where should a user go to set a default expiration (in days) for Estimate records?
+
+Options:
+A.
+Sales Preferences
+
+B.
+The Estimate record
+
+C.
+The Customer record
+
+D.
+Accounting Preferences
+
+ 
+Questions 8
+Which two can users rename on the Rename Records/Transactions page? (Choose two.)
+
+Options:
+A.
+Account types
+
+B.
+Units of Measure
+
+C.
+Report types
+
+D.
+Entities
+
+ 
+Questions 9
+Which option must be selected to allow sales reps and managers to adjust the statuses of opportunities when saving forecasts?
+
+Options:
+A.
+Use Quotes in Forecast
+
+B.
+Multiple Projected Amounts
+
+C.
+Allow Setting Status in Forecast Editor
+
+D.
+Allow Setting Probability in Forecast Editor
+
+ 
+Questions 10
+Which feature provides information about a specific field and can be accessed while ending or viewing a record? The Internal ID of the field can also be seen here.
+
+Options:
+A.
+Help Guide
+
+B.
+Help
+
+C.
+Field Description
+
+D.
+Field Level Help
+
+ 
+Questions 11
+Which criteria are required for a field to be available for Mass Update? (Choose two.)
+
+Options:
+A.
+For custom fields, the field must not be stored and must have a sourcing relationship.
+
+B.
+For standard fields, the field must have dependencies on other fields.
+
+C.
+The field must be displayed on the preferred form for the record type being updated.
+
+D.
+The field must support inline editing.
+
+ 
+Questions 12
+Which options can be set by users under Setup > Sales > Sales Preferences > Forecasts? (Choose 2.)
+
+Options:
+A.
+Calculate Forecasts as Weighted
+
+B.
+Advanced Forecasting
+
+C.
+Use Opportunities in Forecast
+
+D.
+Allow Setting Probability in Forecast Editor
+
+E.
+Allow Override of Quotas in Forecast Editor
+
+ 
+Questions 13
+Which two options can be set by the User under Home > Set Preferences?
+
+Options:
+A.
+The default role
+
+B.
+The default forms
+
+C.
+The tab navigation
+
+D.
+The default subsidiary
+
+ 
+Questions 14
+Which three statements are true about creating a Custom Role? (choose 3)
+
+Options:
+A.
+They can be started from scratch.
+
+B.
+They can be edited after they are created.
+
+C.
+They can be started from Standard Roles.
+
+D.
+They can be deleted while they are assigned.
+
+ 
+Questions 15
+Which standard NetSuite role is set up with mandatory Two-Factor Authentication?
+
+Options:
+A.
+CEO
+
+B.
+Administrator
+
+C.
+Issue Administrator
+
+D.
+CFO
+
+ 
+Questions 16
+Which three actions can be accomplished with a CSV Import? (choose 3)
+
+Options:
+A.
+Add and or Update items.
+
+B.
+Add Transactions records.
+
+C.
+Update existing entity records.
+
+D.
+Delete Customer lead records.
+
+ 
+Questions 17
+Which feature allows users to manage inventory in various locations?
+
+Options:
+A.
+Locations
+
+B.
+Inventory
+
+C.
+Multi-Location Inventory
+
+D.
+Advanced Inventory Management
+
+ 
+Questions 18
+Why might user A not see user B's Calendar?
+
+Options:
+A.
+User B has a restricted role.
+
+B.
+User A and User B's roles use different Centers.
+
+C.
+User B's calendar is not shared as Public.
+
+D.
+User A has not cleared their browser cache.
+
+ 
+Questions 19
+If unable to access the NetSuite user interface, where can users go to find the current system status?
+
+Options:
+A.
+system.netsuite.com/status
+
+B.
+netsuite.com
+
+C.
+status.netsuite.com
+
+D.
+www.netsuite.com/status
+
+ 
+Questions 20
+What is the purpose of checking the Internal Only check box on a Case Form?
+
+Options:
+A.
+To prevent comments in the Reply window from being emailed
+
+B.
+To limit the view of comments to the Contact who filed the Case
+
+C.
+To email the comments in the Reply window to copied employees
+
+D.
+To hide the comments in the Reply window from everyone except the assigned Support Rep
+
+ 
+Questions 21
+Which attribute cannot be modified when editing a custom role?
+
+Options:
+A.
+Inactive
+
+B.
+Center Type
+
+C.
+Employee Restrictions
+
+D.
+Two-Factor Authentication
+
+ 
+Questions 22
+Which action can a Sales Rep perform in the Forecast Editor?
+
+Options:
+A.
+Edit all transactions that make up their sales forecast.
+
+B.
+Inactivate transactions to exclude in the Forecast Report.
+
+C.
+Adjust the probability and status of opportunities in the forecast.
+
+D.
+Edit their quota to override their sales forecast.
+
+ 
+Questions 23
+Which setting allows returned items to be counted as part of inventory?
+
+Options:
+A.
+Return Authorization Status set to "Pending Receipt"
+
+B.
+Receive Return > Clear "Discard" checkbox
+
+C.
+Receive Return > Check "Restock" checkbox
+
+D.
+Location Record > Check "Make Inventory Available".
+
+ 
+Questions 24
+Which Subsidiary Restriction type limits a role's access to a selected subsidiary on their Employee record?
+
+Options:
+A.
+Employee Subsidiary
+
+B.
+All
+
+C.
+Subsidiary
+
+D.
+Selected
+
+ 
+Questions 25
+What is a recommended practice when adding a user?
+
+Options:
+A.
+Customize a separate role for each user.
+
+B.
+Assign a custom role.
+
+C.
+Assign a NetSuite standard role.
+
+D.
+Use Global Permissions with standard roles
+
+ 
+Questions 26
+Which three Item Types can be defined for Purchase, Resale, or Sale? (choose 3)
+
+Options:
+A.
+Service
+
+B.
+Other Charge
+
+C.
+Inventory Item
+
+D.
+Non-inventory Item
+
+ 
+Questions 27
+Which statement is true about inventory transactions?
+
+Options:
+A.
+Inventory adjustments should not be used on LIFO costed items.
+
+B.
+Inventory fulfillments cannot be made unless there is sufficient inventory.
+
+C.
+Inventory transfers and intercompany transfers have the same GL impact.
+
+D.
+The inventory worksheet can be used to create opening balances for items.
+
+ 
+Questions 28
+Which statement is true about using Quick Accept in Event records?
+
+Options:
+A.
+Quick Accept can be performed through the Calendar portlet.
+
+B.
+Enable the Quick Accept preference under Setup > Activities > Calendar Preferences.
+
+C.
+The Event record should be in Edit mode to perform Quick Accept.
+
+D.
+The Quick Accept button provides users an option to mark events as Tentative or Accepted.
+
+ 
+Questions 29
+Which statement is correct regarding Custom Transactions?
+
+Options:
+A.
+Custom Transaction Types can have auto-generated document numbers.
+
+B.
+Custom Transaction Types cannot be imported via CSV.
+
+C.
+Users can only create one custom form for each transaction type.
+
+D.
+Custom Transaction Types cannot include Custom Transaction body fields.
+
+ 
+Questions 30
+Which feature separates the Shipping and the Billing processes in NetSuite?
+
+Options:
+A.
+Advanced Accounting
+
+B.
+Advanced Shipping Integration
+
+C.
+Advanced Billing
+
+D.
+Advanced Shipping
+
+ 
+Questions 31
+Which action can be taken to optimize NetSuite's performance in a browser?
+
+Options:
+A.
+Resize dashboard portlets.
+
+B.
+Use of multiple browser tabs.
+
+C.
+Use the smallest portlet level refresh.
+
+D.
+Maximize the use of dashboard reports and searches.
+
+ 
+Questions 32
+"Don and Mark both have the Consultant role. The role has the Create permission for Opportunities. Under the Global Permissions subtab of his Employee record, Don is provisioned Edit permission for Opportunities. Which statement is true?"
+
+Options:
+A.
+They can both edit Opportunity records.
+
+B.
+Mark can create Opportunity records while Don can edit and create Opportunity records.
+
+C.
+Don can create Opportunity records while Mark can edit and create Opportunity records.
+
+D.
+Neither Don nor Mark can
+
+ 
+Questions 33
+Using the Standard Sales Order Form, what transaction is created when billing a Sales Order that has a Payment Method selected?
+
+Options:
+A.
+Progress Invoice
+
+B.
+Cash Sale
+
+C.
+Customer Payment
+
+D.
+Invoice
+
+ 
+Questions 34
+Which Source can automatically create Lead tecords?
+
+Options:
+A.
+Web Site
+
+B.
+Chat
+
+C.
+Campaigns
+
+D.
+Email
+
+ 
+Questions 35
+Which preference allows users to enter a quantity higher than the quantity committed for an item on an Item Fulfillment form?
+
+Options:
+A.
+Allow Overage on Item Fulfillments
+
+B.
+Invoice in Advance of Fulfillment
+
+C.
+Show Unfulfilled Items on Invoices
+
+D.
+Allow Overage on Item Commitments
+
+ 
+Questions 36
+What is the purpose of selecting Unsubscribed to Marketing by Default, under Marketing Preferences?
+
+Options:
+A.
+To enable the Global Subscription Status field on the Customer record.
+
+B.
+To set the Global Subscription Status to Soft Opt-out once a new Customer record is created.
+
+C.
+Existing customers are updated from Soft Opt-in to Unsubscribed.
+
+D.
+To enable the Campaign Subscription Center link under Home > Dashboard > Settings portlet
+
+ 
+Questions 37
+Which statement is true about Custom Roles?
+
+Options:
+A.
+It is not possible to change the Center Type of created Custom Roles.
+
+B.
+Grant employees access from the Users subtab of a Custom Role record.
+
+C.
+Custom Roles can be created through CSV Import.
+
+D.
+It is not possible to make copies of a Custom Role.
+
+ 
+Questions 38
+Maya is using a custom role that has the Import CSV File permission. On the Import Options page of the CSV Import Assistant, Maya can only select Data Handling of Add. What is the reason for this?
+
+Options:
+A.
+The custom role has the Edit level permission for the record type she is importing.
+
+B.
+The custom role's permission level for Import CSV File is not set to Full.
+
+C.
+The custom role has the Create permission level for the record type she is importing.
+
+D.
+The custom role's permission level for Import CSV File is set to Create.
+
+ 
+Questions 39
+How does Multi‐Location Inventory affect costing?
+
+Options:
+A.
+LIFO and FIFO costing cannot be used.
+
+B.
+Costs are calculated at the location level.
+
+C.
+Costing calculations remain at the item level.
+
+D.
+Average costing will not work with Bin control.
+
+ 
+Questions 40
+An AP Clerk needs to pay multiple vendors, but encounters an unexpected error after navigating to the Pay Bills page.
+
+The alternate solution is to use the Pay Single Vendor page, but this requires a great deal of time to pay the company's vendors.
+
+What is the appropriate NetSuite Case Severity Level the user should select when submitting a Support Case?
+
+Options:
+A.
+C1 - Critical / Business Down
+
+B.
+C2 - Urgent
+
+C.
+C4 - Enhancement / Non Tech Support
+
+D.
+C3 - How To / Non Urgent questions
+
+ 
+Questions 41
+What customization feature allows users with no scripting knowledge to modify standard NetSuite processes?
+
+Options:
+A.
+SuiteBuilder
+
+B.
+SuiteFlow
+
+C.
+SuiteBundler
+
+D.
+SuiteTalk
+
+ 
+Questions 42
+Which activity record type allows a user to reserve weekly conference calls with a project team?
+
+Options:
+A.
+Events
+
+B.
+Phone Calls
+
+C.
+Tasks
+
+D.
+Meetings
+
+ 
+Questions 43
+If a specific subtab is not selected when creating a custom field, what subtab will the field display?
+
+Options:
+A.
+Main
+
+B.
+Items
+
+C.
+System Information
+
+D.
+Custom
+
+ 
+Questions 44
+When enabled, which feature allows users to track multiple Key Performance Indicators (KPIs) with different date ranges?
+
+Options:
+A.
+Key Performance Indicators
+
+B.
+KPI Meters
+
+C.
+Dashboard and Reports
+
+D.
+KPI Scorecards
+
+ 
+Questions 45
+Which statement is true regarding the Create New menu in NetSuite?
+
+Options:
+A.
+Options in the Create New menu can be personalized through the Set Preferences page.
+
+B.
+The Create New menu includes links to create new transactions only.
+
+C.
+The Create New menu is visible only on the Home dashboard.
+
+D.
+Available options are limited by the role a user is logged in with.
+
+ 
+Questions 46
+Which preference allows users to see the Field ID in the Field Level Help?
+
+Options:
+A.
+Show App ID Field
+
+B.
+Show Internal IDs
+
+C.
+Show Field IDs
+
+D.
+Show ID Fields on Sublists
+
+ 
+Questions 47
+Which item types may be used to cluster Item records and group them into one unit? (Choose 2.)
+
+Options:
+A.
+Service Items
+
+B.
+Assembly Items
+
+C.
+Kit/Package Items
+
+D.
+Lot-Numbered Items
+
+E.
+Non-inventory For Resale
+
+ 
+Questions 48
+Mr. Boseman, a Sales Manager, wants to select another team's sales rep in the Customer record, but he sees only his own subordinates in the list. Which option in the Custom Role page does he need to enable to select a sales rep outside his team?
+
+Options:
+A.
+Allow All Records
+
+B.
+Do Not Restrict This Role by Device ID
+
+C.
+Allow Cross-Subsidiary Record Viewing
+
+D.
+Do Not Restrict Employee Fields

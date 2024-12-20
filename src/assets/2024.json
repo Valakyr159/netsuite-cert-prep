@@ -59,7 +59,7 @@
           "isCorrect": false
         }
       ],
-      "explanation": "The Multi-Location Inventory feature enables users to manage inventory across different locations effectively."
+      "explanation": "The Multi-Location Inventory feature enables users to manage inventory across multiple locations, providing better control and visibility over stock levels and movements."
     },
     {
       "id": 3,
@@ -87,7 +87,7 @@
           "isCorrect": false
         }
       ],
-      "explanation": "Renaming records updates the navigational path, making it easier to locate them."
+      "explanation": "Renaming records in NetSuite updates the navigational path to the record automatically, ensuring consistency and ease of access throughout the system."
     },
     {
       "id": 4,
@@ -115,7 +115,7 @@
           "isCorrect": false
         }
       ],
-      "explanation": "To disable the Multi-Subsidiary Customer feature, you must reverse or delete related transactions and remove secondary subsidiaries."
+      "explanation": "To disable the Multi-Subsidiary Customer feature, users must reverse or delete all transactions related to the customer and remove all secondary subsidiaries from Customer records."
     },
     {
       "id": 5,
@@ -143,7 +143,7 @@
           "isCorrect": false
         }
       ],
-      "explanation": "In a NetSuite OneWorld account, Subsidiaries are the primary classification for organizing records."
+      "explanation": "In a NetSuite OneWorld account, Subsidiaries are considered the primary classification, allowing businesses to manage multiple legal entities within a single account."
     },
     {
       "id": 6,
@@ -181,12 +181,12 @@
         {
           "id": 1,
           "text": "Even if a custom form is stored with a record, a user cannot access the form if it is not enabled for their role.",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": 2,
           "text": "If you set preferred forms without restricting them, employees can still change the form when entering records.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "id": 3,
@@ -751,20 +751,20 @@
         {
           "id": 2,
           "text": "Electronic Funds Transfer",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": 3,
           "text": "PayPal Express for Web Stores",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": 4,
           "text": "Credit Card Processing for Sales Orders",
-          "isCorrect": true
+          "isCorrect": false
         }
       ],
-      "explanation": "All listed payment methods are supported in NetSuite. (In the Official Sample Test however only ACH appears correct)"
+      "explanation": "(Disclaimer: As marked on the official NetSuite Sample test) This is correct for Vendors as the other 3 are correct for Customers according to SuiteRep"
     },
     {
       "id": 28,
@@ -975,7 +975,7 @@
         {
           "id": 1,
           "text": "A Purchase Request is automatically routed to the Supervisor if the Purchase Approver is unable to approve the transaction within 24 hours.",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": 2,
@@ -993,7 +993,7 @@
           "isCorrect": false
         }
       ],
-      "explanation": "Purchase Requests can be routed to a Supervisor if not approved in time, and rejected requests can be edited."
+      "explanation": "Purchase Requests can be edited and resubmitted for approval if rejected."
     },
     {
       "id": 36,
@@ -1105,7 +1105,7 @@
           "isCorrect": true
         }
       ],
-      "explanation": "Portlet controls are visible by default but can be hidden by users."
+      "explanation": "A pop-up may display, suggesting that portlets can be minimized to speed up dashboard loading time."
     },
     {
       "id": 40,

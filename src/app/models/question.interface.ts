@@ -20,7 +20,7 @@ export interface Answer {
     showAnswersImmediately: boolean;
     timeLimit: number; // in minutes
     passingScore: number;
-    examYear: string;
+    examSet: string;
     subsetType: 'full' | 'range' | 'random';
     questionRange?: {
       start: number;
@@ -30,8 +30,8 @@ export interface Answer {
     randomCount?: number;
   }
 
-  export interface ExamYear {
-    year: string;
+  export interface ExamSet {
+    set: string;
     totalQuestions: number;
     subsetSize: number;
   }
